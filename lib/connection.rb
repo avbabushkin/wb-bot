@@ -3,6 +3,7 @@ require 'faraday'
 class Connection
   class KeyNotProvidedError < StandardError; end
 
+  # TODO: move to config  
   BASE_URL = 'https://suppliers-stats.wildberries.ru/api/v1'
 
   def init
