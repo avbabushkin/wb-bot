@@ -1,0 +1,5 @@
+require 'pry'
+require_relative 'connection'
+require_relative 'wb_app'
+require_relative 'wb_api_service'
+require 'bot'
